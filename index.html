@@ -10,57 +10,74 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <title>Speech @ Speech</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Nunito:wght@200&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="styles/styles.css" rel="stylesheet" />
+
+    <title>The Lauren Ipsum Speech Clinic</title>
   </head>
   <body>
     <div class="container">
-      <nav>
+      <nav class="d-flex justify-content-end">
         <ul>
           <li class="active">
             <a href="/index.html" title="Homepage">Home</a>
           </li>
-          <li><a href="/services.html" title="Services page">Services</a></li>
           <li><a href="about.html" title="About page">About us</a></li>
+          <li><a href="/services.html" title="Services page">Services</a></li>
+
           <li><a href="/contact.html" title="Contact page">Contact us</a></li>
-          <li>
-            <a href="/testimonials.html" title="Testimonials page"
-              >Testimonials</a
-            >
-          </li>
         </ul>
       </nav>
-      <h1>Speech @ speech</h1>
+      <h1 class="border p-4 mb-4">The Lauren Ipsum Speech Clinic</h1>
     </div>
+    <img src="images/client-pic.jpg" class="img-fluid mb-5" />
     <div class="container">
-      <div class="row">
-        <div class="col-6">
-          <img src="images/phoneme-head.jpg" class="img-fluid" />
-        </div>
-        <div class="col-6">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
+      <h2 class="mb-4">Welcome to The LISC!</h2>
+      <p class="mb-5">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum.
+      </p>
+    </div>
+
+    <div class="container">
+      <div class="helpful-links d-flex justify-content-center">
+        <a href="about.html" title="Meet the team" class="link-border"
+          >Meet the team</a
+        >
+        <a href="services.html" title="What we offer" class="link-border"
+          >Services</a
+        >
+        <a href="contact.html" title="Contact us" class="link-border"
+          >Get in touch</a
+        >
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-4">
-          <img src="images/phoneme-head.jpg" class="img-fluid" />
-        </div>
-        <div class="col-4">
-          <img src="images/phoneme-head.jpg" class="img-fluid" />
-        </div>
-        <div class="col-4">
-          <img src="images/phoneme-head.jpg" class="img-fluid" />
-        </div>
+    <img src="images/client-pic2.jpg" class="img-fluid mb-5 mt-5" />
+    <footer class="m-5">
+      <h2>Follow us!</h2>
+      <div class="social-links d-flex justify-content-center">
+        <a href="#" title="">instragram</a>
+        <a href="#" title="">facebook</a>
+        <a href="#" title="">yelp</a>
       </div>
-    </div>
+    </footer>
   </body>
 </html>
