@@ -52,6 +52,7 @@ p {
 
 .services-section {
   margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .services-section li {
@@ -59,6 +60,15 @@ p {
   line-height: 35px;
   margin-left: 40px;
   list-style-type: circle;
+}
+
+.team-photos {
+  margin-bottom: 80px;
+}
+
+.team-photos img {
+  max-height: 250px;
+  margin-bottom: 10px;
 }
 
 .social-links {
