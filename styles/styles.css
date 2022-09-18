@@ -1,16 +1,18 @@
 nav {
-  padding: 15px 0;
+  padding-top: 15px;
   font-family: "Nunito", sans-serif;
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 500;
+  background-color: rgb(204, 223, 220, 0.6);
 }
 
 nav li {
   display: inline;
   list-style: none;
   margin-left: 20px;
+  margin-right: 10px;
 }
 
 nav a {
@@ -19,45 +21,44 @@ nav a {
 }
 
 nav a:hover {
-  color: plum;
+  color: #ccdfdc;
   text-decoration: none;
+}
+
+.logo-pic {
+  width: 180px;
+  margin-left: 15px;
 }
 
 h1 {
   text-align: center;
   font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  font-size: 40px;
 }
 
 h2 {
   text-align: center;
   font-family: "Nunito", sans-serif;
+  font-size: 32px;
 }
 
 p {
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
+  padding: 0 30px;
 }
 
-.link-line {
-  margin-top: 90px;
-  margin-bottom: 90px;
+.services-section {
+  margin-top: 80px;
 }
 
-.link-border {
-  margin: 40px;
-  padding: 30px 20px;
-  border: 1px solid gray;
-  border-radius: 50px;
-  color: black;
-  font-family: "Nunito", sans-serif;
-  text-transform: uppercase;
-  font-size: 24px;
-}
-
-.link-border:hover {
-  color: plum;
-  text-decoration: none;
+.services-section li {
+  font-family: "Montserrat", sans-serif;
+  line-height: 35px;
+  margin-left: 40px;
+  list-style-type: circle;
 }
 
 .social-links {
@@ -65,11 +66,17 @@ p {
 }
 
 .social-links a {
-  color: black;
-  margin: 15px;
+  color: white;
+  margin: 0 20px;
+  font-size: 20px;
+  border: 2px solid rgb(204, 223, 220, 0.4);
+  border-radius: 50px;
+  padding: 10px 17px;
+  background-color: rgb(204, 223, 220, 0.9);
 }
 
 .social-links a:hover {
-  color: plum;
+  color: #ccdfdc;
   text-decoration: none;
+  background-color: white;
 }
