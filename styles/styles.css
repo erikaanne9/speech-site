@@ -19,9 +19,12 @@ nav a {
   color: black;
   text-decoration: none;
 }
+.active {
+  font-weight: bolder;
+}
 
 nav a:hover {
-  color: #ccdfdc;
+  color: #c6cb78;
   text-decoration: none;
 }
 
