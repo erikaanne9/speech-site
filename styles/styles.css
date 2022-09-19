@@ -62,12 +62,16 @@ p {
   list-style-type: circle;
 }
 
+.green-border {
+  border: 3px double #c6cb78;
+}
+
 .team-photos {
   margin-bottom: 80px;
 }
 
 .team-photos img {
-  max-height: 250px;
+  max-height: 210px;
   margin-bottom: 10px;
 }
 
