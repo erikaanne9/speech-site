@@ -110,5 +110,13 @@ p {
 
 .therapy-section {
   background-color: rgb(168, 147, 194, 0.2);
-  margin-top: 30px;
+  padding: 50px 0 50px 0;
+}
+
+.therapy-section li {
+  list-style-type: circle;
+  margin-left: 20px;
+  line-height: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-size: larger;
 }
