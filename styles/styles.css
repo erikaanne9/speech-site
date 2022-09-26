@@ -57,6 +57,8 @@ h2 {
 
 h3 {
   font-family: "Nunito", sans-serif;
+  text-align: center;
+  font-size: 22px;
 }
 
 p {
@@ -137,15 +139,19 @@ p {
 
 .lauren-bio {
   background-color: rgb(168, 147, 194, 0.1);
-  padding-top: 50px;
+  padding: 50px 0 50px 0;
 }
 
 .dolores-bio {
   background-color: rgb(204, 223, 220, 0.1);
-  padding-top: 50px;
+  padding: 50px 0 50px 0;
 }
 
 .connie-bio {
   background-color: rgb(168, 147, 194, 0.1);
-  padding-top: 50px;
+  padding: 50px 0 50px 0;
+}
+
+.footer {
+  margin-top: 90px;
 }
