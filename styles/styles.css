@@ -155,3 +155,30 @@ p {
 .footer {
   margin-top: 90px;
 }
+
+@media (max-width: 1000px) {
+  nav li {
+    margin: 0;
+  }
+
+  nav ul {
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 20px;
+    padding: 5px 1px;
+  }
+
+  li {
+    font-size: 19px;
+  }
+
+  .team-photos img {
+    max-height: 250px;
+  }
+}
