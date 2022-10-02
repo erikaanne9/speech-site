@@ -8,6 +8,21 @@ nav {
   background-color: rgb(204, 223, 220, 0.6);
 }
 
+.nav-style {
+  background-color: (204, 223, 220, 0.6);
+}
+
+.nav-style ul {
+  text-align: right;
+}
+
+.navbar-nav {
+  flex: 1;
+  margin: auto !important;
+  display: flex;
+  justify-content: end;
+}
+
 nav li {
   display: inline;
   list-style: none;
